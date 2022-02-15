@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get('/test', (req, res, next) => {
     try {
-        bot.telegram.sendMessage(-794545159, 'ВОЗІ ПІЗДА ВІД ДІМИ))))))) CИГНАЛ ДОДАНО ');
+        bot.telegram.sendMessage(-794545159, 'ВОЗІfdfsdfs ПІЗДА ВІД ДІМИ))))))) CИГНАЛ ДОДАНО ');
         res.json('yes')
     } catch (e) {
         next(e);
